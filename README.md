@@ -25,24 +25,7 @@ The repository includes:
 ├── data/
 │   └── raw/
 │       └── Steel_industry_data.csv
-├── docs/
-│   └── RESEARCH_BRIEF.md
-├── paper/
-│   ├── paper_ieee.tex
-│   ├── paper_ieee.pdf
-│   ├── IEEEtran.cls
-│   ├── reference/
-│   │   └── references.bib
-│   └── figures/papers/
-├── results/
-│   ├── comprehensive_results.json
-│   ├── conditional_results.json
-│   ├── two_stage_results_v3.json
-│   ├── synthetic_tvae.csv
-│   ├── synthetic_ctgan.csv
-│   └── synthetic_conditional.csv
 ├── requirements.txt
-├── .gitignore
 └── LICENSE
 ```
 
@@ -98,30 +81,13 @@ python code/conditional_generation.py
 
 This script generates targeted synthetic samples for specific `Load_Type` conditions and evaluates conditional generation utility.
 
-### 5. Regenerate paper figures
-
-```bash
-python code/generate_paper_figures.py
-```
-
-This script regenerates paper figures from the packaged dataset and selected result artifacts.
 
 ## Notes on Paths
 
 Run the packaged scripts from the repository root. They expect:
 - dataset under `data/raw/Steel_industry_data.csv`
-- generated outputs and cached artifacts under `results/`
-- paper assets under `paper/`
+- generated outputs and cached artifacts under `results/``
 
-## Paper
-
-The final paper assets are under `paper/`:
-- LaTeX source: `paper/paper_ieee.tex`
-- Compiled PDF: `paper/paper_ieee.pdf`
-- Bibliography: `paper/reference/references.bib`
-- Figures: `paper/figures/papers/`
-
-If your LaTeX environment is configured, compile from the `paper/` directory.
 
 ## Citation
 
