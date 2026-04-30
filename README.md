@@ -1,6 +1,6 @@
 # Privacy-Preserving Industrial Electric-Carbon Synthetic Data Generation
 
-This repository packages the code, paper assets, selected experiment outputs, and the dataset used for a study on privacy-preserving synthetic data generation for industrial electric-carbon coupled data. The project focuses on generating realistic tabular data that preserves electric-carbon coupling structure, supports conditional synthesis for specific operating regimes, and evaluates privacy risk with distance-based audits.
+This repository packages the code, and the dataset used for a study on privacy-preserving synthetic data generation for industrial electric-carbon coupled data. The project focuses on generating realistic tabular data that preserves electric-carbon coupling structure, supports conditional synthesis for specific operating regimes, and evaluates privacy risk with distance-based audits.
 
 ## Overview
 
